@@ -1,27 +1,19 @@
-## Lorenco Shametaj
+### Hi, I'm Lorenco 👋
 
-**Compiler & real-time systems engineer — Rust / C++.**
-I build performance-critical, low-level systems: lock-free real-time pipelines,
-MLIR compiler passes, cross-platform native engines, and vendor-agnostic
-hardware runtimes.
+I'm a solo developer building **[Fluera](https://fluera.dev)** — a learning
+canvas, not a note app. You handwrite on an infinite canvas, Fluera maps your
+whole degree, then studies you back. Grounded in memory science.
 
-### Selected work
-- **[NSI](https://github.com/Lorencoshametaj/nsi)** — a complete, std-only,
-  vendor-agnostic **real-time neural-I/O runtime** in Rust: lock-free hot path
-  (zero heap allocation), a C-ABI driver contract, online DSP + spike sorting,
-  and a conformance suite. Runs end-to-end on real Neuropixels data — no hardware required.
-- **[Fluera](https://github.com/Lorencoshametaj/fluera_engine)** — a high-performance
-  **cross-platform graphics / canvas engine**: C/C++ native core, Flutter bindings, Android NDK.
-- **tt-mlir** — contributed a TTIR canonicalization fix to Tenstorrent's
-  open-source MLIR compiler ([PR #8912](https://github.com/tenstorrent/tt-mlir/pull/8912)).
+To make it, I build **high-performance 2D drawing & canvas engines** for
+Flutter: pressure-sensitive brushes, an infinite canvas, and 60 FPS GPU
+rendering across iOS, Android, macOS, Windows, Linux and Web.
 
-### Focus
-MLIR / compiler backends · real-time & lock-free systems · graphics & rendering ·
-SIMD / DSP · vendor-agnostic accelerator runtimes
+#### 🚀 What I'm building
+- 🎨 **[fluera_canvas](https://github.com/Lorencoshametaj/fluera_canvas)** — an MIT-licensed 2D drawing SDK for Flutter (the open core of my engine)
+- 🧠 **Fluera** — the study app it powers → [fluera.dev](https://fluera.dev)
+- ⚙️ **Fluera Engine SDK** — commercial GPU tier for teams → [engine.fluera.dev](https://engine.fluera.dev)
 
-### Tech
-Rust · C++ · C · MLIR / LLVM · Python
+#### 🛠️ Tech
+`Flutter` · `Dart` · GPU rendering (Metal / Vulkan / OpenGL / WebGPU) · native plugins · cross-platform
 
-**Open to fixed-scope compiler / runtime / systems engagements.**
-
-📫 shametajlorenco@gmail.com
+📫 **lorenco@fluera.dev**
